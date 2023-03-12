@@ -59,6 +59,22 @@ img {
   background-color: #888;
 }
 
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -611,20 +627,4 @@ fieldset {
 #contact textarea:focus {
   outline: 0;
   border: 1px solid #aaa;
-}
-
-::-webkit-input-placeholder {
-  color: #888;
-}
-
-:-moz-placeholder {
-  color: #888;
-}
-
-::-moz-placeholder {
-  color: #888;
-}
-
-:-ms-input-placeholder {
-  color: #888;
 }
