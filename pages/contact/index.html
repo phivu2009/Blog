@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <title>Contact me</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -18,8 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script src="assets/js/main.js"></script>
-    <title>Bà rịa vũng tàu - My Country</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
   </head>
   <body>
     <header class="shadow">
@@ -38,7 +37,7 @@
 
         <ul class="list-group">
           <li class="list-group-item">
-            <a href="#" type="button">
+            <a href="../about/index.html" type="button">
               <i class="fa-solid fa-address-card"></i>
               <span>About</span>
             </a>
@@ -52,48 +51,55 @@
         </ul>
       </div>
     </header>
-
-    <section class="post-header">
-      <div class="header-container post-container">
-        <a href="../../index.html" class="back-home">
-          <i class="fa fa-undo" aria-hidden="true"></i>
-          <span>Back to Home</span>
-        </a>
-        <h2 class="header-title">lorem</h2>
-        <img src="../../assets/image/banner1.jpg" alt="" class="header-img" />
-      </div>
-    </section>
-
-    <section class="post-content post-container">
-      <h2 class="subheading">Title</h2>
-      <p class="post-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque
-        reiciendis nostrum nobis, quidem doloribus assumenda eveniet rerum
-        dignissimos optio quaerat quam architecto accusamus earum obcaecati vel
-        facere nulla dicta?
-      </p>
-      <h2 class="subheading">Title</h2>
-      <p class="post-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque
-        reiciendis nostrum nobis, quidem doloribus assumenda eveniet rerum
-        dignissimos optio quaerat quam architecto accusamus earum obcaecati vel
-        facere nulla dicta?
-      </p>
-      <h2 class="subheading">Title</h2>
-      <p class="post-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque
-        reiciendis nostrum nobis, quidem doloribus assumenda eveniet rerum
-        dignissimos optio quaerat quam architecto accusamus earum obcaecati vel
-        facere nulla dicta?
-      </p>
-      <h2 class="subheading">Title</h2>
-      <p class="post-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis itaque
-        reiciendis nostrum nobis, quidem doloribus assumenda eveniet rerum
-        dignissimos optio quaerat quam architecto accusamus earum obcaecati vel
-        facere nulla dicta?
-      </p>
-    </section>
+    <div class="container-contact">
+      <form
+        id="contact"
+        action=" http://tranvanhung.fitstu.net/hufi/thiet-ke-web/form.php"
+        method="post"
+      >
+        <h3>Contact</h3>
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input placeholder="Subject" type="text" tabindex="4" required />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Type your message here...."
+            tabindex="5"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit">
+            Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
     <footer class="site-footer">
       <div class="container">
         <div class="row" style="justify-content: space-between">
